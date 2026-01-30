@@ -23,7 +23,5 @@ A simple React project with landing pages, authentication, and a dashboard layou
   - Pages styled with white content area
 - Responsive for mobile, tablet, and desktop
 
----
 
-## Folder Structure
 
