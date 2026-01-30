@@ -10,8 +10,8 @@ const Sidebar = () => {
         <nav className="flex flex-col space-y-4">
           <Link to="/dashboard" className="hover:text-blue-400 transition">Dashboard</Link>
           <Link to="/dashboard/profile" className="hover:text-blue-400 transition">Profile</Link>
-          <Link to="/dashboard/analytics" className="hover:text-blue-400 transition">Analytics</Link>
           <Link to="/dashboard/settings" className="hover:text-blue-400 transition">Settings</Link>
+          <Link to="/dashboard/analytics" className="hover:text-blue-400 transition">Analytics</Link>
         </nav>
       </div>
 
