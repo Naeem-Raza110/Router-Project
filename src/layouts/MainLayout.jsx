@@ -14,7 +14,6 @@ const MainLayout = () => {
       </div>
 
       {/* Grid overlay */}
-      <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-[0.03] pointer-events-none"></div>
 
       <Header />
 

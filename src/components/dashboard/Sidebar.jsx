@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <div className="min-h-screen w-64 bg-gradient-to-b from-black via-gray-900 to-black text-white p-6 flex flex-col justify-between">
+    <div className="min-h-screen w-full bg-gradient-to-b from-black via-gray-900 to-black text-white p-6 flex flex-col justify-between">
       
       {/* Top Links */}
-      <div className="space-y-6">
+      <div className="space-y-8">
         <h2 className="text-2xl font-bold mb-8">Admin Panel</h2>
-        <nav className="flex flex-col space-y-4">
+        <nav className="flex flex-col space-y-4 text-lg">
           <Link to="/dashboard" className="hover:text-blue-400 transition">Dashboard</Link>
           <Link to="/dashboard/profile" className="hover:text-blue-400 transition">Profile</Link>
           <Link to="/dashboard/settings" className="hover:text-blue-400 transition">Settings</Link>
